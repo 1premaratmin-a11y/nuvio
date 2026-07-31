@@ -55,7 +55,7 @@ function initSmoothScroll() {
   });
 }
 
-/* Contact Form Validation */
+/* Contact Form Validation + Mailto */
 function initFormValidation() {
   const form = document.querySelector('.contact-form form');
   if (!form) return;
@@ -78,6 +78,16 @@ function initFormValidation() {
       }
     });
     if (valid) {
+      const name = form.querySelector('#name').value;
+      const email = form.querySelector('#email').value;
+      const company = form.querySelector('#company')?.value || 'N/A';
+      const tier = form.querySelector('#tier')?.value || 'N/A';
+      const message = form.querySelector('#message').value;
+      const subject = encodeURIComponent(`New Nuvio Inquiry — ${name} (${tier})`);
+      const body = encodeURIComponent(
+        `Name: ${name}\nEmail: ${email}\nCompany: ${company}\nBudget: ${tier}\n\nMessage:\n${message}`
+      );
+      window.location.href = `mailto:1premaratmin@gmail.com?subject=${subject}&body=${body}`;
       const successMsg = form.querySelector('.form-success') || document.querySelector('.form-success');
       if (successMsg) {
         successMsg.classList.add('show');
