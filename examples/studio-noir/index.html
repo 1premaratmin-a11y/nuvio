@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Studio Noir — High-End Photography Studio</title>
+<meta name="description" content="Studio Noir is a high-end photography studio specializing in wedding, portrait, commercial, and landscape photography with a timeless, editorial aesthetic.">
+<meta name="keywords" content="photography studio, wedding photography, portrait photography, commercial photography, landscape photography, luxury photography, editorial photography">
+<meta name="author" content="Studio Noir">
+<meta name="robots" content="index, follow">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Studio Noir — High-End Photography Studio">
+<meta property="og:description" content="Timeless, editorial photography for weddings, portraits, commercial, and landscapes.">
+<meta property="og:url" content="https://1premaratmin-a11y.github.io/nuvio/examples/studio-noir/">
+<meta property="og:image" content="https://1premaratmin-a11y.github.io/nuvio/examples/studio-noir/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Studio Noir — High-End Photography Studio">
+<meta name="twitter:description" content="Timeless, editorial photography for weddings, portraits, commercial, and landscapes.">
+<meta name="theme-color" content="#0a0a0a">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="canonical" href="https://1premaratmin-a11y.github.io/nuvio/examples/studio-noir/">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- Custom Cursor -->
+<div class="cursor-dot" id="cursorDot"></div>
+<div class="cursor-ring" id="cursorRing"></div>
+
+<!-- Mobile Overlay Nav -->
+<div class="mobile-nav-overlay" id="mobileNav">
+  <button class="mobile-nav-close" id="mobileNavClose" aria-label="Close menu">
+    <span></span><span></span>
+  </button>
+  <nav class="mobile-nav-links">
+    <a href="#hero" class="mobile-link">Home</a>
+    <a href="#about" class="mobile-link">About</a>
+    <a href="#portfolio" class="mobile-link">Portfolio</a>
+    <a href="#services" class="mobile-link">Services</a>
+    <a href="#testimonials" class="mobile-link">Testimonials</a>
+    <a href="#contact" class="mobile-link">Contact</a>
+  </nav>
+  <div class="mobile-nav-footer">
+    <p>hello@studionoir.com</p>
+    <p>+1 (212) 555-0188</p>
+  </div>
+</div>
+
+<!-- Sidebar Nav -->
+<aside class="sidebar" id="sidebar">
+  <div class="sidebar-inner">
+    <a href="#hero" class="logo">
+      <span class="logo-mark">SN</span>
+      <span class="logo-text">Studio Noir</span>
+    </a>
+    <nav class="sidebar-nav">
+      <a href="#hero" class="nav-link" data-section="hero"><span class="nav-num">01</span><span class="nav-label">Home</span></a>
+      <a href="#about" class="nav-link" data-section="about"><span class="nav-num">02</span><span class="nav-label">About</span></a>
+      <a href="#portfolio" class="nav-link" data-section="portfolio"><span class="nav-num">03</span><span class="nav-label">Portfolio</span></a>
+      <a href="#services" class="nav-link" data-section="services"><span class="nav-num">04</span><span class="nav-label">Services</span></a>
+      <a href="#testimonials" class="nav-link" data-section="testimonials"><span class="nav-num">05</span><span class="nav-label">Testimonials</span></a>
+      <a href="#contact" class="nav-link" data-section="contact"><span class="nav-num">06</span><span class="nav-label">Contact</span></a>
+    </nav>
+    <div class="sidebar-social">
+      <a href="#" aria-label="Instagram">Ig</a>
+      <a href="#" aria-label="Behance">Bē</a>
+      <a href="#" aria-label="Vimeo">Vi</a>
+      <a href="#" aria-label="Pinterest">Pin</a>
+    </div>
+    <div class="sidebar-bottom">
+      <p class="sidebar-status"><span class="status-dot"></span> Available for 2026</p>
+      <p class="sidebar-copyright">© 2026 Studio Noir</p>
+    </div>
+  </div>
+</aside>
+
+<!-- Mobile Header -->
+<header class="mobile-header" id="mobileHeader">
+  <a href="#hero" class="mobile-logo">SN</a>
+  <button class="hamburger" id="hamburger" aria-label="Open menu">
+    <span></span><span></span><span></span>
+  </button>
+</header>
+
+<!-- Main Content -->
+<main class="main-content" id="mainContent">
+
+  <!-- Hero -->
+  <section class="hero" id="hero">
+    <div class="hero-bg-grain"></div>
+    <div class="hero-content">
+      <p class="hero-eyebrow reveal">High-End Photography Studio</p>
+      <h1 class="hero-title reveal">STUDIO NOIR</h1>
+      <div class="hero-tagline-wrap reveal">
+        <span class="hero-tagline-prefix">— </span>
+        <span class="hero-tagline" id="typedTagline"></span><span class="cursor-blink">|</span>
+      </div>
+      <div class="hero-meta reveal">
+        <div class="hero-meta-item">
+          <span class="hero-meta-label">Est.</span>
+          <span class="hero-meta-value">2014</span>
+        </div>
+        <div class="hero-meta-item">
+          <span class="hero-meta-label">Based in</span>
+          <span class="hero-meta-value">New York · Worldwide</span>
+        </div>
+        <div class="hero-meta-item">
+          <span class="hero-meta-label">Projects</span>
+          <span class="hero-meta-value">300+</span>
+        </div>
+      </div>
+      <div class="hero-scroll reveal">
+        <span class="hero-scroll-text">Scroll</span>
+        <span class="hero-scroll-line"></span>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section class="about" id="about">
+    <div class="section-header reveal">
+      <span class="section-num">02</span>
+      <h2 class="section-title">About</h2>
+    </div>
+    <div class="about-grid">
+      <div class="about-image-wrap reveal">
+        <div class="about-image-placeholder">
+          <div class="about-image-inner">
+            <svg viewBox="0 0 200 260" xmlns="http://www.w3.org/2000/svg" fill="none">
+              <rect width="200" height="260" fill="#111"/>
+              <circle cx="100" cy="95" r="38" stroke="#d4a85a" stroke-width="1.5" opacity="0.4"/>
+              <path d="M55 220 Q100 170 145 220" stroke="#d4a85a" stroke-width="1.5" opacity="0.3" fill="none"/>
+              <line x1="20" y1="20" x2="20" y2="240" stroke="#d4a85a" stroke-width="0.5" opacity="0.15"/>
+              <line x1="180" y1="20" x2="180" y2="240" stroke="#d4a85a" stroke-width="0.5" opacity="0.15"/>
+              <text x="100" y="250" text-anchor="middle" fill="#d4a85a" opacity="0.3" font-size="8" font-family="Georgia">PORTRAIT</text>
+            </svg>
+          </div>
+        </div>
+      </div>
+      <div class="about-text">
+        <p class="about-lead reveal">We capture the silence between moments — the breath before a vow, the glance that lingers a heartbeat too long, the light that turns ordinary into timeless.</p>
+        <p class="about-body reveal">Studio Noir was founded in 2014 by Elena Vance and Marcus Cole, two photographers united by a belief that luxury is not loud. Over a decade, we've photographed 300+ weddings, editorial portraits, and commercial campaigns across four continents — always with the same obsession: composition, shadow, and the decisive moment.</p>
+        <p class="about-body reveal">Our work has appeared in Vogue, Harper's Bazaar, and Monocle. We've shot for brands like Aesop, Hermès, and The New York Times. But our favorite frames are the ones that never get published — the ones that hang in someone's hallway and stop them every morning.</p>
+        <div class="about-stats reveal">
+          <div class="about-stat">
+            <span class="about-stat-num" data-count="300">0</span>
+            <span class="about-stat-label">Projects</span>
+          </div>
+          <div class="about-stat">
+            <span class="about-stat-num" data-count="40">0</span>
+            <span class="about-stat-label">Awards</span>
+          </div>
+          <div class="about-stat">
+            <span class="about-stat-num" data-count="12">0</span>
+            <span class="about-stat-label">Years</span>
+          </div>
+          <div class="about-stat">
+            <span class="about-stat-num" data-count="25">0</span>
+            <span class="about-stat-label">Countries</span>
+          </div>
+        </div>
+        <div class="about-signature reveal">
+          <p class="signature-name">Elena Vance & Marcus Cole</p>
+          <p class="signature-role">Founders & Lead Photographers</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio -->
+  <section class="portfolio" id="portfolio">
+    <div class="section-header reveal">
+      <span class="section-num">03</span>
+      <h2 class="section-title">Portfolio</h2>
+    </div>
+    <div class="portfolio-filters reveal">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="wedding">Wedding</button>
+      <button class="filter-btn" data-filter="portrait">Portrait</button>
+      <button class="filter-btn" data-filter="commercial">Commercial</button>
+      <button class="filter-btn" data-filter="landscape">Landscape</button>
+    </div>
+    <div class="portfolio-grid" id="portfolioGrid">
+      <!-- Items injected by JS -->
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section class="services" id="services">
+    <div class="section-header reveal">
+      <span class="section-num">04</span>
+      <h2 class="section-title">Services</h2>
+    </div>
+    <div class="services-grid">
+      <div class="service-card reveal">
+        <span class="service-num">01</span>
+        <h3 class="service-title">Wedding Photography</h3>
+        <p class="service-desc">Full-day coverage with two photographers, a cinematic highlight film, and a hand-bound archival album. We disappear into the day so you forget we're there — until you see the photos.</p>
+        <ul class="service-features">
+          <li>12-hour coverage</li>
+          <li>Two photographers</li>
+          <li>500+ edited images</li>
+          <li>Archival fine-art album</li>
+        </ul>
+        <p class="service-price">From $8,500</p>
+      </div>
+      <div class="service-card reveal">
+        <span class="service-num">02</span>
+        <h3 class="service-title">Portrait Sessions</h3>
+        <p class="service-desc">Editorial, family, and personal brand portraits shot in-studio or on location. We work slow, talk a lot, and find the version of you that doesn't pose.</p>
+        <ul class="service-features">
+          <li>2-hour session</li>
+          <li>Studio or location</li>
+          <li>30+ edited images</li>
+          <li>Print-ready files</li>
+        </ul>
+        <p class="service-price">From $1,200</p>
+      </div>
+      <div class="service-card reveal">
+        <span class="service-num">03</span>
+        <h3 class="service-title">Commercial & Brand</h3>
+        <p class="service-desc">Campaign photography for luxury brands, hospitality, and editorial. From concept to final delivery, we build the visual world your brand lives in.</p>
+        <ul class="service-features">
+          <li>Full creative direction</li>
+          <li>Crew & production</li>
+          <li>Usage licensing</li>
+          <li>Retouching included</li>
+        </ul>
+        <p class="service-price">Custom quote</p>
+      </div>
+      <div class="service-card reveal">
+        <span class="service-num">04</span>
+        <h3 class="service-title">Fine Art Landscape</h3>
+        <p class="service-desc">Large-format landscape prints for collectors and interiors. Each piece is a limited edition of 25, signed and numbered, printed on archival cotton rag.</p>
+        <ul class="service-features">
+          <li>Limited edition of 25</li>
+          <li>Archival cotton rag print</li>
+          <li>Signed & numbered</li>
+          <li>Custom framing available</li>
+        </ul>
+        <p class="service-price">From $2,800</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="testimonials" id="testimonials">
+    <div class="section-header reveal">
+      <span class="section-num">05</span>
+      <h2 class="section-title">Testimonials</h2>
+    </div>
+    <div class="testimonial-slider" id="testimonialSlider">
+      <div class="testimonial-track" id="testimonialTrack">
+        <div class="testimonial active">
+          <p class="testimonial-quote">"Studio Noir didn't photograph our wedding — they translated it. Every image feels like a memory we didn't know we had. We've cried looking at these photos more times than I'll admit."</p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar">SC</div>
+            <div>
+              <p class="testimonial-name">Sophie & Caleb</p>
+              <p class="testimonial-role">Wedding · Tuscany, 2025</p>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial">
+          <p class="testimonial-quote">"We hired Studio Noir for our brand campaign and they delivered something that exceeded the brief in every dimension. The images are still the best thing on our website six months later."</p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar">AM</div>
+            <div>
+              <p class="testimonial-name">Aria Mendez</p>
+              <p class="testimonial-role">Creative Director, Aesop</p>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial">
+          <p class="testimonial-quote">"I've been photographed many times. This was the first time I forgot the camera was there. Elena and Marcus have a gift — they find the stillness in you. The portraits are the most 'me' I've ever seen."</p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar">DR</div>
+            <div>
+              <p class="testimonial-name">Daniel Rivers</p>
+              <p class="testimonial-role">Portrait Session, 2024</p>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial">
+          <p class="testimonial-quote">"Their landscape prints hang in our hotel lobby and every single guest asks about them. They transformed a wall into a conversation. Worth every penny and then some."</p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar">JK</div>
+            <div>
+              <p class="testimonial-name">James Kowalski</p>
+              <p class="testimonial-role">Hotelier · The Marlowe Collection</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="testimonial-controls">
+        <button class="testimonial-btn testimonial-prev" id="testimonialPrev" aria-label="Previous testimonial">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M15 18l-6-6 6-6"/></svg>
+        </button>
+        <div class="testimonial-dots" id="testimonialDots"></div>
+        <button class="testimonial-btn testimonial-next" id="testimonialNext" aria-label="Next testimonial">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9 18l6-6-6-6"/></svg>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="contact" id="contact">
+    <div class="section-header reveal">
+      <span class="section-num">06</span>
+      <h2 class="section-title">Contact</h2>
+    </div>
+    <div class="contact-grid">
+      <div class="contact-info reveal">
+        <p class="contact-lead">Let's create something timeless together. Tell us about your project — we respond to every inquiry within 48 hours.</p>
+        <div class="contact-details">
+          <div class="contact-detail">
+            <span class="contact-detail-label">Email</span>
+            <a href="mailto:hello@studionoir.com" class="contact-detail-value">hello@studionoir.com</a>
+          </div>
+          <div class="contact-detail">
+            <span class="contact-detail-label">Phone</span>
+            <a href="tel:+12125550188" class="contact-detail-value">+1 (212) 555-0188</a>
+          </div>
+          <div class="contact-detail">
+            <span class="contact-detail-label">Studio</span>
+            <span class="contact-detail-value">42 Greene Street, SoHo, New York</span>
+          </div>
+          <div class="contact-detail">
+            <span class="contact-detail-label">Hours</span>
+            <span class="contact-detail-value">Mon–Fri, 9am – 6pm EST</span>
+          </div>
+        </div>
+      </div>
+      <form class="contact-form reveal" id="contactForm" action="mailto:hello@studionoir.com" method="post" enctype="text/plain">
+        <div class="form-group">
+          <input type="text" id="name" name="name" required class="form-input" placeholder=" ">
+          <label for="name" class="form-label">Your Name</label>
+        </div>
+        <div class="form-group">
+          <input type="email" id="email" name="email" required class="form-input" placeholder=" ">
+          <label for="email" class="form-label">Email Address</label>
+        </div>
+        <div class="form-group">
+          <select id="serviceType" name="serviceType" required class="form-input form-select">
+            <option value="" disabled selected></option>
+            <option value="Wedding Photography">Wedding Photography</option>
+            <option value="Portrait Session">Portrait Session</option>
+            <option value="Commercial / Brand">Commercial / Brand</option>
+            <option value="Fine Art Landscape">Fine Art Landscape</option>
+            <option value="Other">Other</option>
+          </select>
+          <label for="serviceType" class="form-label">Service Interest</label>
+        </div>
+        <div class="form-group">
+          <input type="date" id="date" name="date" class="form-input form-date" placeholder=" ">
+          <label for="date" class="form-label">Preferred Date</label>
+        </div>
+        <div class="form-group">
+          <textarea id="message" name="message" rows="4" required class="form-input form-textarea" placeholder=" "></textarea>
+          <label for="message" class="form-label">Tell us about your project</label>
+        </div>
+        <button type="submit" class="form-submit">
+          <span class="form-submit-text">Send Message</span>
+          <span class="form-submit-arrow">→</span>
+        </button>
+        <p class="form-note" id="formNote"></p>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <h3 class="footer-logo">Studio Noir</h3>
+        <p class="footer-tagline">The silence between moments.</p>
+      </div>
+      <div class="footer-links">
+        <div class="footer-col">
+          <h4 class="footer-col-title">Navigate</h4>
+          <a href="#hero">Home</a>
+          <a href="#about">About</a>
+          <a href="#portfolio">Portfolio</a>
+          <a href="#services">Services</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <div class="footer-col">
+          <h4 class="footer-col-title">Services</h4>
+          <a href="#services">Weddings</a>
+          <a href="#services">Portraits</a>
+          <a href="#services">Commercial</a>
+          <a href="#services">Landscape</a>
+        </div>
+        <div class="footer-col">
+          <h4 class="footer-col-title">Connect</h4>
+          <a href="#" aria-label="Instagram">Instagram</a>
+          <a href="#" aria-label="Behance">Behance</a>
+          <a href="#" aria-label="Vimeo">Vimeo</a>
+          <a href="#" aria-label="Pinterest">Pinterest</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 Studio Noir. All rights reserved.</p>
+      <p>Designed with intention. Built for eternity.</p>
+    </div>
+  </footer>
+
+</main>
+
+<!-- Lightbox -->
+<div class="lightbox" id="lightbox">
+  <button class="lightbox-close" id="lightboxClose" aria-label="Close lightbox">
+    <span></span><span></span>
+  </button>
+  <button class="lightbox-nav lightbox-prev" id="lightboxPrev" aria-label="Previous image">
+    <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1"><path d="M15 18l-6-6 6-6"/></svg>
+  </button>
+  <button class="lightbox-nav lightbox-next" id="lightboxNext" aria-label="Next image">
+    <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1"><path d="M9 18l6-6-6-6"/></svg>
+  </button>
+  <div class="lightbox-content" id="lightboxContent">
+    <div class="lightbox-image" id="lightboxImage"></div>
+    <div class="lightbox-info">
+      <p class="lightbox-title" id="lightboxTitle"></p>
+      <p class="lightbox-category" id="lightboxCategory"></p>
+    </div>
+  </div>
+  <div class="lightbox-counter" id="lightboxCounter"></div>
+</div>
+
+<script src="js/main.js"></script>
+</body>
+</html>
