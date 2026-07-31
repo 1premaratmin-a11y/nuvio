@@ -5,35 +5,24 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Contact Nuvio — get a free quote for your website project within 24 hours.">
   <title>Contact — Nuvio</title>
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='45' fill='%237c3aed'/></svg>">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='40' fill='%237c3aed'/></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;510;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <nav class="navbar" role="navigation" aria-label="Main navigation">
+  <div class="cursor-dot"></div>
+  <div class="scroll-progress"></div>
+  <nav class="nav" role="navigation" aria-label="Main navigation">
     <div class="nav-inner">
-      <a href="/" class="nav-logo"><span class="logo-dot"></span>Nuvio</a>
-      <ul class="nav-links" id="nav-links">
-        <li><a href="/#services">Services</a></li>
-        <li><a href="/#work">Work</a></li>
-        <li><a href="/#pricing">Pricing</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-      <div class="nav-cta">
-        <a href="contact.html" class="btn btn-primary">Get a Quote</a>
-        <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false"><span></span><span></span><span></span></button>
-      </div>
+      <a href="/" class="nav-logo"><span class="logo-mark"><svg viewBox="0 0 28 28" fill="none"><circle cx="14" cy="14" r="13" stroke="url(#gc)" stroke-width="2"/><path d="M8 18V10L14 16L20 10V18" stroke="url(#gc)" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/><defs><linearGradient id="gc" x1="0" y1="0" x2="28" y2="28"><stop offset="0" stop-color="#7c3aed"/><stop offset="1" stop-color="#3b82f6"/></linearGradient></defs></svg></span><span class="logo-text">Nuvio</span></a>
+      <ul class="nav-links" id="nav-links"><li><a href="/#services">Services</a></li><li><a href="/#work">Work</a></li><li><a href="/#process">Process</a></li><li><a href="/#pricing">Pricing</a></li><li><a href="about.html">About</a></li><li><a href="contact.html">Contact</a></li></ul>
+      <div class="nav-cta"><a href="contact.html" class="btn btn-primary">Get a Quote</a><button class="nav-toggle" aria-label="Toggle menu"><span></span><span></span><span></span></button></div>
     </div>
   </nav>
 
-  <section style="padding-top: calc(var(--nav-height) + 80px); padding-bottom: 40px;">
-    <div class="container">
-      <div class="reveal">
-        <div class="section-label">Contact</div>
-        <h1 class="section-title">Let's build your website</h1>
-        <p class="section-desc">Tell us about your project. We'll send a custom quote within 24 hours — no obligation, no pushy sales.</p>
-      </div>
-    </div>
+  <section style="padding-top: calc(var(--nav-h) + 80px); padding-bottom: 40px;">
+    <div class="container"><div class="reveal"><div class="section-label">Contact</div><h1 class="section-title" style="font-size: clamp(2rem, 4vw, 3rem);">Let's build your website</h1><p class="section-desc" style="margin-bottom: 0;">Tell us about your project. We'll send a custom quote within 24 hours — no obligation, no pushy sales.</p></div></div>
   </section>
 
   <section style="padding-top: 20px; padding-bottom: 100px;">
@@ -41,58 +30,19 @@
       <div class="contact-grid">
         <div class="contact-info reveal">
           <h3>Get in touch</h3>
-          <p style="color: var(--text-secondary); margin-bottom: 32px;">Fill out the form and we'll get back to you within 24 hours. Prefer email? Reach us directly.</p>
-          
-          <div class="contact-item">
-            <div class="contact-item-icon"><svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M4 4h16v16H4zM4 4l8 8 8-8"/></svg></div>
-            <div><div class="label">Email</div><div class="value"><a href="mailto:1premaratmin@gmail.com">1premaratmin@gmail.com</a></div></div>
-          </div>
-          <div class="contact-item">
-            <div class="contact-item-icon"><svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg></div>
-            <div><div class="label">Response Time</div><div class="value">Within 24 hours</div></div>
-          </div>
-          <div class="contact-item">
-            <div class="contact-item-icon"><svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 8v4l3 3"/></svg></div>
-            <div><div class="label">Delivery</div><div class="value">5-10 days after kickoff</div></div>
-          </div>
-          <div class="contact-item">
-            <div class="contact-item-icon"><svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg></div>
-            <div><div class="label">Starting Price</div><div class="value">$499</div></div>
-          </div>
+          <p style="color: var(--text-muted); margin-bottom: 32px;">Fill out the form and we'll get back to you within 24 hours. Prefer email? Reach us directly.</p>
+          <div class="contact-item"><div class="contact-item-icon"><svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M4 4h16v16H4zM4 4l8 8 8-8"/></svg></div><div><div class="label">Email</div><div class="value"><a href="mailto:1premaratmin@gmail.com">1premaratmin@gmail.com</a></div></div></div>
+          <div class="contact-item"><div class="contact-item-icon"><svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 8v4l3 3"/></svg></div><div><div class="label">Response Time</div><div class="value">Within 24 hours</div></div></div>
+          <div class="contact-item"><div class="contact-item-icon"><svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg></div><div><div class="label">Starting Price</div><div class="value">$499</div></div></div>
         </div>
-
         <div class="contact-form reveal">
           <div class="form-success">Thanks! Your message has been sent. We'll get back to you within 24 hours.</div>
           <form id="contactForm" action="mailto:1premaratmin@gmail.com" method="POST" enctype="text/plain" novalidate>
-            <div class="form-group">
-              <label for="name">Your Name *</label>
-              <input type="text" id="name" name="name" required placeholder="John Smith">
-              <div class="form-error">Please enter your name.</div>
-            </div>
-            <div class="form-group">
-              <label for="email">Email *</label>
-              <input type="email" id="email" name="email" required placeholder="john@company.com">
-              <div class="form-error">Please enter a valid email address.</div>
-            </div>
-            <div class="form-group">
-              <label for="company">Company / Project Name</label>
-              <input type="text" id="company" name="company" placeholder="Acme Inc.">
-            </div>
-            <div class="form-group">
-              <label for="tier">Budget Range</label>
-              <select id="tier" name="tier">
-                <option value="">Select a tier...</option>
-                <option value="starter">Starter — $499 (1-page landing)</option>
-                <option value="professional">Professional — $1,499 (up to 5 pages)</option>
-                <option value="enterprise">Enterprise — Custom (complex/e-commerce)</option>
-                <option value="not-sure">Not sure yet — help me decide</option>
-              </select>
-            </div>
-            <div class="form-group">
-              <label for="message">Project Details *</label>
-              <textarea id="message" name="message" required placeholder="Tell us about your project — what kind of website do you need? Any reference sites you like? What's your timeline?"></textarea>
-              <div class="form-error">Please tell us about your project.</div>
-            </div>
+            <div class="form-group"><label for="name">Your Name *</label><input type="text" id="name" name="name" required placeholder="John Smith"><div class="form-error">Please enter your name.</div></div>
+            <div class="form-group"><label for="email">Email *</label><input type="email" id="email" name="email" required placeholder="john@company.com"><div class="form-error">Please enter a valid email address.</div></div>
+            <div class="form-group"><label for="company">Company / Project Name</label><input type="text" id="company" name="company" placeholder="Acme Inc."></div>
+            <div class="form-group"><label for="tier">Budget Range</label><select id="tier" name="tier"><option value="">Select a tier...</option><option value="starter">Starter — $499 (1-page landing)</option><option value="professional">Professional — $1,499 (up to 5 pages)</option><option value="enterprise">Enterprise — Custom (complex/e-commerce)</option><option value="not-sure">Not sure yet — help me decide</option></select></div>
+            <div class="form-group"><label for="message">Project Details *</label><textarea id="message" name="message" required placeholder="Tell us about your project — what kind of website do you need? Any reference sites you like? What's your timeline?"></textarea><div class="form-error">Please tell us about your project.</div></div>
             <button type="submit" class="btn btn-primary btn-lg" style="width: 100%;">Send Message →</button>
           </form>
         </div>
@@ -103,7 +53,7 @@
   <footer>
     <div class="container">
       <div class="footer-grid">
-        <div class="footer-brand"><a href="/" class="nav-logo"><span class="logo-dot"></span>Nuvio</a><p>Modern web studio building fast, high-converting websites for businesses worldwide.</p></div>
+        <div class="footer-brand"><a href="/" class="nav-logo"><span class="logo-mark"><svg viewBox="0 0 28 28" fill="none"><circle cx="14" cy="14" r="13" stroke="url(#gf3)" stroke-width="2"/><path d="M8 18V10L14 16L20 10V18" stroke="url(#gf3)" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/><defs><linearGradient id="gf3" x1="0" y1="0" x2="28" y2="28"><stop offset="0" stop-color="#7c3aed"/><stop offset="1" stop-color="#3b82f6"/></linearGradient></defs></svg></span><span class="logo-text">Nuvio</span></a><p>Modern web studio building fast, high-converting websites for businesses worldwide.</p></div>
         <div class="footer-col"><h5>Services</h5><ul><li><a href="/#services">Custom Websites</a></li><li><a href="/#services">Landing Pages</a></li><li><a href="/#services">E-commerce</a></li><li><a href="/#services">SEO</a></li></ul></div>
         <div class="footer-col"><h5>Company</h5><ul><li><a href="about.html">About</a></li><li><a href="/#work">Portfolio</a></li><li><a href="/#pricing">Pricing</a></li><li><a href="contact.html">Contact</a></li></ul></div>
         <div class="footer-col"><h5>Legal</h5><ul><li><a href="#">Privacy</a></li><li><a href="#">Terms</a></li><li><a href="#">Refunds</a></li></ul></div>

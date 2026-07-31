@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://1premaratmin-a11y.github.io/nuvio/sitemap.xml
