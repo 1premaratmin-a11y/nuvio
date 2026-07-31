@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- CUSTOMIZE: Restaurant name, description -->
+  <meta name="description" content="Restaurant Name — Fine dining in a warm, intimate setting. Reserve your table today.">
+  <title>Restaurant Name — Fine Dining</title>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Restaurant",
+    "name": "Restaurant Name",
+    "servesCuisine": "Italian",
+    "priceRange": "$$$",
+    "address": { "@type": "PostalAddress", "streetAddress": "123 Main St", "addressLocality": "City", "postalCode": "00000" },
+    "telephone": "+1-555-000-0000"
+  }
+  </script>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Nav -->
+  <nav class="nav" id="nav" role="navigation" aria-label="Main navigation">
+    <div class="nav-inner">
+      <a href="#home" class="nav-logo">Restaurant<span>.</span></a>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#reservation">Reserve</a></li>
+        <li><a href="#location">Contact</a></li>
+      </ul>
+      <div class="nav-cta">
+        <a href="#reservation" class="btn btn-primary">Reserve a Table</a>
+        <button class="nav-toggle" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero" id="home">
+    <div class="hero-bg"></div>
+    <div class="hero-content">
+      <div class="tagline">Est. 2026 · Fine Dining</div>
+      <h1>Restaurant Name</h1>
+      <p>Where every dish tells a story, and every visit becomes a memory.</p>
+      <div class="hero-actions">
+        <a href="#reservation" class="btn btn-primary">Reserve a Table</a>
+        <a href="#menu" class="btn btn-outline">View Menu</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-image reveal"></div>
+        <div class="about-text reveal">
+          <div class="section-label" style="margin-bottom: 12px;">Our Story</div>
+          <h2>A passion for flavor</h2>
+          <p>Born from a love of authentic cuisine and warm hospitality, Restaurant Name has been serving unforgettable dining experiences since 2026.</p>
+          <p>Our chef combines traditional techniques with modern creativity, sourcing the finest local ingredients to craft dishes that surprise and delight.</p>
+          <p>Every plate is a canvas, every meal a celebration. Join us for an evening of exceptional food, curated wines, and warm ambiance.</p>
+          <div class="signature">— Chef Name</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Menu -->
+  <section id="menu" style="background: var(--bg-soft);">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-label">Our Menu</div>
+        <h2 class="section-title">Crafted with care</h2>
+        <p class="section-desc">A seasonal selection of dishes made with the freshest local ingredients.</p>
+      </div>
+      <div class="menu-filters" id="menuFilters">
+        <button class="active" data-cat="appetizers">Appetizers</button>
+        <button data-cat="mains">Mains</button>
+        <button data-cat="desserts">Desserts</button>
+        <button data-cat="drinks">Drinks</button>
+      </div>
+      <div class="menu-list">
+        <!-- Appetizers -->
+        <div class="menu-category active" data-cat="appetizers">
+          <div class="menu-category-title">Appetizers</div>
+          <div class="menu-item"><div class="menu-item-info"><h4>Bruschetta al Pomodoro</h4><p>Toasted ciabatta, fresh tomatoes, basil, olive oil</p><div class="menu-tags"><span class="menu-tag tag-veg">Veg</span></div></div><div class="menu-price">$14</div></div>
+          <div class="menu-item"><div class="menu-item-info"><h4>Calamari Fritti</h4><p>Crispy calamari, lemon aioli, fresh parsley</p><div class="menu-tags"><span class="menu-tag tag-gf">GF</span></div></div><div class="menu-price">$18</div></div>
+          <div class="menu-item"><div class="menu-item-info"><h4>Burrata Caprese</h4><p>Fresh burrata, heirloom tomatoes, basil oil, aged balsamic</p><div class="menu-tags"><span class="menu-tag tag-veg">Veg</span><span class="menu-tag tag-chef">Chef's Pick</span></div></div><div class="menu-price">$16</div></div>
+          <div class="menu-item"><div class="menu-item-info"><h4>Spicy Arancini</h4><p>Saffron risotto balls, arrabbiata sauce, parmesan</p><div class="menu-tags"><span class="menu-tag tag-veg">Veg</span><span class="menu-tag tag-spicy">Spicy</span></div></div><div class="menu-price">$15</div></div>
+        </div>
+        <!-- Mains -->
+        <div class="menu-category" data-cat="mains">
+          <div class="menu-category-title">Mains</div>
+          <div class="menu-item"><div class="menu-item-info"><h4>Osso Buco</h4><p>Braised veal shank, saffron risotto, gremolata</p><div class="menu-tags"><span class="menu-tag tag-chef">Chef's Pick</span></div></div><div class="menu-price">$42</div></div>
+          <div class="menu-item"><div class="menu-item-info"><h4>Wild Mushroom Risotto</h4><p>Arborio rice, wild mushrooms, truffle, parmesan</p><div class="menu-tags"><span class="menu-tag tag-veg">Veg</span><span class="menu-tag tag-gf">GF</span></div></div><div class="menu-price">$32</div></div>
+          <div class="menu-item"><div class="menu-item-info"><h4>Grilled Branzino</h4><p>Whole branzino, lemon, capers, roasted vegetables</p><div class="menu-tags"><span class="menu-tag tag-gf">GF</span></div></div><div class="menu-price">$38</div></div>
+          <div class="menu-item"><div class="menu-item-info"><h4>Tagliatelle al Tartufo</h4><p>Handmade pasta, black truffle, butter, parmesan</p><div class="menu-tags"><span class="menu-tag tag-veg">Veg</span><span class="menu-tag tag-chef">Chef's Pick</span></div></div><div class="menu-price">$36</div></div>
+          <div class="menu-item"><div class="menu-item-info"><h4>Bistecca alla Fiorentina</h4><p>T-bone steak, rosemary, olive oil, sea salt (for two)</p><div class="menu-tags"><span class="menu-tag tag-gf">GF</span></div></div><div class="menu-price">$78</div></div>
+        </div>
+        <!-- Desserts -->
+        <div class="menu-category" data-cat="desserts">
+          <div class="menu-category-title">Desserts</div>
+          <div class="menu-item"><div class="menu-item-info"><h4>Tiramisu</h4><p>Mascarpone, espresso-soaked ladyfingers, cocoa</p><div class="menu-tags"></div></div><div class="menu-price">$12</div></div>
+          <div class="menu-item"><div class="menu-item-info"><h4>Panna Cotta</h4><p>Vanilla cream, berry compote, mint</p><div class="menu-tags"><span class="menu-tag tag-gf">GF</span></div></div><div class="menu-price">$10</div></div>
+          <div class="menu-item"><div class="menu-item-info"><h4>Cannoli Siciliani</h4><p>Crispy shells, sweet ricotta, pistachio, chocolate</p><div class="menu-tags"></div></div><div class="menu-price">$11</div></div>
+          <div class="menu-item"><div class="menu-item-info"><h4>Gelato Trio</h4><p>Three scoops: pistachio, stracciatella, amarena</p><div class="menu-tags"><span class="menu-tag tag-gf">GF</span></div></div><div class="menu-price">$9</div></div>
+        </div>
+        <!-- Drinks -->
+        <div class="menu-category" data-cat="drinks">
+          <div class="menu-category-title">Drinks</div>
+          <div class="menu-item"><div class="menu-item-info"><h4>Barolo Riserva 2018</h4><p>Full-bodied red wine, Piedmont, Italy</p><div class="menu-tags"></div></div><div class="menu-price">$22/glass</div></div>
+          <div class="menu-item"><div class="menu-item-info"><h4>Pinot Grigio</h4><p>Crisp white wine, Friuli, Italy</p><div class="menu-tags"></div></div><div class="menu-price">$14/glass</div></div>
+          <div class="menu-item"><div class="menu-item-info"><h4>Negroni</h4><p>Gin, Campari, vermouth, orange peel</p><div class="menu-tags"></div></div><div class="menu-price">$16</div></div>
+          <div class="menu-item"><div class="menu-item-info"><h4>Espresso Martini</h4><p>Vodka, espresso, coffee liqueur, vanilla</p><div class="menu-tags"></div></div><div class="menu-price">$15</div></div>
+          <div class="menu-item"><div class="menu-item-info"><h4>Sparkling Water</h4><p>San Pellegrino, 750ml</p><div class="menu-tags"></div></div><div class="menu-price">$6</div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery -->
+  <section id="gallery">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-label">Gallery</div>
+        <h2 class="section-title">A feast for the eyes</h2>
+        <p class="section-desc">Moments captured in our dining room and kitchen.</p>
+      </div>
+      <div class="gallery-grid">
+        <div class="gallery-item reveal"></div>
+        <div class="gallery-item reveal"></div>
+        <div class="gallery-item reveal"></div>
+        <div class="gallery-item reveal"></div>
+        <div class="gallery-item reveal"></div>
+        <div class="gallery-item reveal"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section style="background: var(--bg-soft);">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-label">Reviews</div>
+        <h2 class="section-title">What our guests say</h2>
+      </div>
+      <div class="testimonials-grid">
+        <div class="testimonial reveal"><div class="stars">★★★★★</div><p>"The best Italian meal I've had outside of Italy. The truffle pasta is extraordinary."</p><div class="name">Emma Thompson</div><div class="role">Food Critic</div></div>
+        <div class="testimonial reveal"><div class="stars">★★★★★</div><p>"An unforgettable evening. Every dish was perfect, the service impeccable, the wine pairing sublime."</p><div class="name">James Chen</div><div class="role">Regular Guest</div></div>
+        <div class="testimonial reveal"><div class="stars">★★★★★</div><p>"We celebrated our anniversary here and it exceeded every expectation. Already booked our next visit."</p><div class="name">Sofia & Marco</div><div class="role">Anniversary Dinner</div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Reservation -->
+  <section id="reservation">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-label">Reservations</div>
+        <h2 class="section-title">Book your table</h2>
+        <p class="section-desc">We can't wait to welcome you. Reserve online in under a minute.</p>
+      </div>
+      <div class="reservation-grid">
+        <div class="reservation-info reveal">
+          <h3>Plan your visit</h3>
+          <p>Whether it's an intimate dinner for two or a celebration with friends, we'll make it memorable.</p>
+          <div class="reservation-hours">
+            <h4>Opening Hours</h4>
+            <div class="day"><span>Monday</span><span>Closed</span></div>
+            <div class="day"><span>Tuesday - Thursday</span><span>5:00 PM - 10:00 PM</span></div>
+            <div class="day"><span>Friday - Saturday</span><span>5:00 PM - 11:00 PM</span></div>
+            <div class="day"><span>Sunday</span><span>12:00 PM - 9:00 PM</span></div>
+          </div>
+        </div>
+        <div class="reservation-form reveal">
+          <div class="form-success">Thank you! Your reservation request has been received. We'll confirm via phone within 2 hours.</div>
+          <form id="reservationForm" novalidate>
+            <div class="form-group"><label>Name</label><input type="text" name="name" required placeholder="Your full name"></div>
+            <div class="form-row">
+              <div class="form-group"><label>Date</label><input type="date" name="date" required></div>
+              <div class="form-group"><label>Time</label><input type="time" name="time" required></div>
+            </div>
+            <div class="form-group"><label>Party Size</label>
+              <select name="size" required>
+                <option value="">Select...</option>
+                <option value="1">1 person</option>
+                <option value="2">2 people</option>
+                <option value="3">3 people</option>
+                <option value="4">4 people</option>
+                <option value="5">5 people</option>
+                <option value="6">6 people</option>
+                <option value="7+">7+ (large party)</option>
+              </select>
+            </div>
+            <div class="form-group"><label>Phone</label><input type="tel" name="phone" required placeholder="(555) 000-0000"></div>
+            <div class="form-group"><label>Special Requests</label><textarea name="requests" placeholder="Dietary restrictions, celebrations, seating preferences..."></textarea></div>
+            <button type="submit" class="btn btn-primary" style="width: 100%;">Request Reservation</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Location -->
+  <section id="location" style="background: var(--bg-soft);">
+    <div class="container">
+      <div class="location-grid">
+        <div class="location-info reveal">
+          <div class="section-label" style="margin-bottom: 12px;">Find Us</div>
+          <h3>Visit us</h3>
+          <div class="location-item">
+            <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            <div><div class="label">Address</div><div class="value">123 Main Street<br>City, State 00000</div></div>
+          </div>
+          <div class="location-item">
+            <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+            <div><div class="label">Phone</div><div class="value">(555) 000-0000</div></div>
+          </div>
+          <div class="location-item">
+            <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M4 4h16v16H4zM4 4l8 8 8-8"/></svg>
+            <div><div class="label">Email</div><div class="value">hello@restaurant.com</div></div>
+          </div>
+        </div>
+        <div class="location-map reveal">Map Placeholder</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="footer-logo">Restaurant<span>.</span></div>
+          <p>Fine dining in a warm, intimate setting. Where every dish tells a story.</p>
+          <div class="newsletter">
+            <input type="email" placeholder="Email for newsletter">
+            <button>Join</button>
+          </div>
+        </div>
+        <div><h5>Explore</h5><ul><li><a href="#about">About</a></li><li><a href="#menu">Menu</a></li><li><a href="#gallery">Gallery</a></li><li><a href="#reservation">Reserve</a></li></ul></div>
+        <div><h5>Visit</h5><ul><li><a href="#location">Address</a></li><li><a href="#reservation">Hours</a></li><li><a href="#">Private Events</a></li><li><a href="#">Gift Cards</a></li></ul></div>
+        <div><h5>Follow</h5><ul><li><a href="#">Instagram</a></li><li><a href="#">Facebook</a></li><li><a href="#">Twitter</a></li></ul></div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 Restaurant Name. All rights reserved.</span>
+        <div class="footer-social">
+          <a href="#" aria-label="Instagram"><svg fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg></a>
+          <a href="#" aria-label="Facebook"><svg fill="currentColor" viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Lightbox -->
+  <div class="lightbox" id="lightbox">
+    <span class="lightbox-close" id="lightboxClose">×</span>
+    <div class="lightbox-content">Gallery Image</div>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
