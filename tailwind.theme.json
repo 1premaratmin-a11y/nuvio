@@ -1,0 +1,130 @@
+{
+  "theme": {
+    "extend": {
+      "colors": {
+        "primary": "#7c3aed",
+        "bg-primary": "#0a0a0f",
+        "bg-secondary": "#12121a",
+        "bg-tertiary": "#1a1a2e",
+        "bg-card": "#ffffff08",
+        "bg-card-hover": "#ffffff0f",
+        "border": "#ffffff14",
+        "border-hover": "#ffffff26",
+        "text-primary": "#f0f0f5",
+        "text-secondary": "#a0a0b8",
+        "text-muted": "#6b6b80",
+        "accent-1": "#7c3aed",
+        "accent-2": "#3b82f6",
+        "accent-light": "#a78bfa",
+        "success": "#10b981",
+        "danger": "#ef4444",
+        "gold": "#fbbf24"
+      },
+      "fontFamily": {
+        "h1": [
+          "Source Sans 3"
+        ],
+        "h2": [
+          "Source Sans 3"
+        ],
+        "h3": [
+          "Source Sans 3"
+        ],
+        "body-lg": [
+          "Source Sans 3"
+        ],
+        "body": [
+          "Source Sans 3"
+        ],
+        "body-sm": [
+          "Source Sans 3"
+        ],
+        "button": [
+          "Source Sans 3"
+        ],
+        "label": [
+          "Source Sans 3"
+        ],
+        "mono": [
+          "Source Code Pro"
+        ]
+      },
+      "fontSize": {
+        "h1": [
+          "4.5rem",
+          {
+            "letterSpacing": "-1.4px",
+            "fontWeight": "300"
+          }
+        ],
+        "h2": [
+          "3rem",
+          {
+            "letterSpacing": "-1px",
+            "fontWeight": "300"
+          }
+        ],
+        "h3": [
+          "1.25rem",
+          {
+            "fontWeight": "600"
+          }
+        ],
+        "body-lg": [
+          "1.2rem",
+          {
+            "fontWeight": "400"
+          }
+        ],
+        "body": [
+          "1rem",
+          {
+            "fontWeight": "400"
+          }
+        ],
+        "body-sm": [
+          "0.85rem",
+          {
+            "fontWeight": "400"
+          }
+        ],
+        "button": [
+          "0.9rem",
+          {
+            "fontWeight": "600"
+          }
+        ],
+        "label": [
+          "0.8rem",
+          {
+            "letterSpacing": "0.05em",
+            "fontWeight": "600"
+          }
+        ],
+        "mono": [
+          "0.9rem",
+          {
+            "fontWeight": "400"
+          }
+        ]
+      },
+      "borderRadius": {
+        "xs": "4px",
+        "sm": "8px",
+        "md": "12px",
+        "lg": "16px",
+        "xl": "20px"
+      },
+      "spacing": {
+        "xs": "8px",
+        "sm": "16px",
+        "md": "24px",
+        "lg": "32px",
+        "xl": "48px",
+        "2xl": "64px",
+        "3xl": "80px",
+        "4xl": "120px"
+      }
+    }
+  }
+}
